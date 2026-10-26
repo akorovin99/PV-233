@@ -1,0 +1,13 @@
+
+[project]
+name = "lab1-delivery"
+version = "0.1.0"
+description = "Лабораторная работа №1: тестирование функции расчёта стоимости доставки"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
